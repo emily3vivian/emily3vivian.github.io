@@ -1,10 +1,52 @@
 <style type="text/css">
 
-	img{
-
-		width:100px;
-		height:50px;
-			
+	body{
+		background-color: black;
 	}
 
+/*	@font-face{
+		font-family: 'Raleway', sans-serif;
+		src: url(https://www.google.com/fonts#UsePlace:use);
+	}
+*/
+	img{
+
+		float: right;
+		width:350px;
+		height:450px;
+		border-left: 5px double teal;
+		border-right: 5px double teal;
+		border-top: 5px double purple;
+		border-bottom: 5px double purple;
+	}
+
+	h1{
+		color: purple;
+		text-align: right;
+		background: gray;
+		font-family: 'Raleway', sans-serif; font-weight 700; 
+		border-top: 5px solid teal;
+		border-bottom: 5px solid teal;
+	}
+
+	h3{
+		color: teal;
+		border-left: 3px solid purple;
+		font-family: 'Raleway', sans-serif; font-weight 400:
+	}
+
+	h4{
+		color: gray;
+		font-family: 'Raleway', sans-serif; font-weight 400:
+	}
+
+	ul{
+		color: white;
+		font-family: 'Raleway', sans-serif; font-weight 300:
+	}
+
+	ol{
+		color: white;
+		font-family: 'Raleway', sans-serif; font-weight 300:
+	}
 </style>
