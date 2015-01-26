@@ -1,15 +1,17 @@
 <style type="text/css">
 
-	body{
-		background-color: black;
-	}
-
-/*	@font-face{
+/*global*/
+	@font-face{
 		font-family: 'Raleway', sans-serif;
 		src: url(https://www.google.com/fonts#UsePlace:use);
 	}
-*/
-	img{
+
+	body{
+		font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	}
+
+/*bio*/
+	.bio img{
 
 		float: right;
 		width:350px;
@@ -20,7 +22,7 @@
 		border-bottom: 5px double purple;
 	}
 
-	h1{
+	.bio h1{
 		color: purple;
 		text-align: right;
 		background: gray;
@@ -29,30 +31,34 @@
 		border-bottom: 5px solid teal;
 	}
 
-	h3{
+	.bio h3{
 		color: teal;
 		border-left: 3px solid purple;
-		font-family: 'Raleway', sans-serif; font-weight 400:
+		font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
 	}
 
-	h4{
+	.bio h4{
 		color: gray;
 		font-family: 'Raleway', sans-serif; font-weight 400:
 	}
 
-	ul{
+	.bio ul, ol{
 		color: white;
 		font-family: 'Raleway', sans-serif; font-weight 300:
 	}
-
-	ol{
+/*
+	.bio ol{
 		color: white;
 		font-family: 'Raleway', sans-serif; font-weight 300:
 	}
-
-	p{
+*/
+	.bio p{
 		color: white;
 		font-family: 'Raleway', sans-serif; font-weight 300:
 		text-indent: 50px;
 	}
+/*home*/
+
+/*style*/
+
 </style>
