@@ -7,7 +7,12 @@
 	}
 
 	body{
-		font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+		line-height: 22px;
+	}
+
+	p{
+		color: white;
+		font-family: 'Raleway', sans-serif; font-weight 300;
 	}
 
 /*bio*/
@@ -34,17 +39,27 @@
 	.bio h3{
 		color: teal;
 		border-left: 3px solid purple;
-		font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+		font-family: 'Raleway', sans-serif; font-weight 400;
 	}
 
 	.bio h4{
 		color: gray;
-		font-family: 'Raleway', sans-serif; font-weight 400:
+		font-family: 'Raleway', sans-serif; font-weight 400;
 	}
 
 	.bio ul, ol{
 		color: white;
-		font-family: 'Raleway', sans-serif; font-weight 300:
+		font-family: 'Raleway', sans-serif; font-weight 300;
+	}
+
+	.bio section{
+		width: 500px;
+		/*fix*/float: left;
+	}
+
+	.bio article{
+		width: 1000px;
+		margin: 0 auto;
 	}
 /*
 	.bio ol{
@@ -52,11 +67,7 @@
 		font-family: 'Raleway', sans-serif; font-weight 300:
 	}
 */
-	.bio p{
-		color: white;
-		font-family: 'Raleway', sans-serif; font-weight 300:
-		text-indent: 50px;
-	}
+
 /*home*/
 
 /*style*/
