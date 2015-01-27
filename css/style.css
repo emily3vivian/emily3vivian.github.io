@@ -15,9 +15,7 @@
 		font-family: 'Raleway', sans-serif; font-weight 300;
 	}
 
-/*bio*/
-	.bio img{
-
+	img{
 		float: right;
 		width:350px;
 		height:450px;
@@ -27,6 +25,10 @@
 		border-bottom: 5px double purple;
 	}
 
+/*bio*/
+	.bio body{
+		background-color: black;
+	}
 	.bio h1{
 		color: purple;
 		text-align: right;
@@ -54,13 +56,17 @@
 
 	.bio section{
 		width: 500px;
-		/*fix*/float: left;
+		float: left;
+		margin: auto 10px auto;
+		background-color: #000000;
 	}
 
 	.bio article{
-		width: 1000px;
+		width: 1500px;
 		margin: 0 auto;
+		background-color: black;
 	}
+
 /*
 	.bio ol{
 		color: white;
