@@ -28,6 +28,7 @@
 /*nav*/
 	nav{
 		float: right;
+		/*background: red;*/
 	}
 	nav a:link{
 		color: teal;
@@ -91,6 +92,7 @@
 	.bio ul, ol{
 		color: white;
 		font-family: 'Raleway', sans-serif; font-weight 300;
+		background-color: black;
 	}
 
 	.bio section{
@@ -98,16 +100,35 @@
 		float: left;
 		margin: auto 10px auto;
 		background-color: #000000;
+		padding: 20px;
 	}
 
 	.bio article{
 		width: 1500px;
 		margin: 0 auto;
-		background-color: #000000;
+		background: #000000;
 	}
 
+	.bio div{
+		/*background: #000000;*/
+		width: 1500px;
+		height: 1700px;
+	}
 
-/*home*/
+/*index*/
+
+	.index article{
+		background: teal;
+		margin: 0 auto;
+		width: 1000px;
+	}
+	.col1{
+		
+	}
+
+	.index p{
+		color: black;
+	}
 
 /*style*/
 
