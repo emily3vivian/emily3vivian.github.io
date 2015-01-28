@@ -26,24 +26,37 @@
 	}
 
 /*nav*/
+	nav{
+		float: right;
+	}
 	nav a:link{
 		color: teal;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
 	}
 
 	nav a:visited{
 		color: gray;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
 	}
 
 	nav a:hover, hover{
 		color: purple;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
 	}
 
 	nav ul{
 		list-style-type: none;
 	    margin: 0;
 	    padding: 0;
-        display: block;
+        display: inline;
     	width: 60px;
+	}
+
+	nav li{
+		display: inline;
 	}
 /*
 	nav a:focus{
