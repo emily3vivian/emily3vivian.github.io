@@ -122,12 +122,27 @@
 		margin: 0 auto;
 		width: 1000px;
 	}
+	.col1, .col2{
+		float: left;
+	}
+
 	.col1{
-		
+		width:300px;
+		margin: 20px;
+	}
+
+	.col2{
+		width:300px;
+		margin: 20px;
+	}
+
+	footer{
+		float:left;
 	}
 
 	.index p{
 		color: black;
+		
 	}
 
 /*style*/
