@@ -15,16 +15,6 @@
 		font-family: 'Raleway', sans-serif; font-weight 300;
 	}
 
-	img{
-		float: right;
-		width:350px;
-		height:450px;
-		border-left: 5px double teal;
-		border-right: 5px double teal;
-		border-top: 5px double purple;
-		border-bottom: 5px double purple;
-	}
-
 
 /*nav*/
 	nav{
@@ -63,10 +53,22 @@
 
 
 /*bio*/
+
+	.bio img{
+		float: right;
+		width:350px;
+		height:450px;
+		border-left: 5px double teal;
+		border-right: 5px double teal;
+		border-top: 5px double purple;
+		border-bottom: 5px double purple;
+	}
+
 	.bio body{
 		background-image: url("img/evangelion-colorful-robots-images-free_3758453.jpg");
 		background-color: #000000;	
 	}
+
 	.bio h1{
 		color: purple;
 		text-align: right;
@@ -117,9 +119,35 @@
 /*index*/
 
 	.index article{
-		background: teal;
+		width: 1500px;
 		margin: 0 auto;
-		width: 1000px;
+		/*background: teal;*/
+	}
+
+	.index section{
+		width: 500px;
+		float: left;
+		margin: auto 10px auto;
+		/*background: teal;*/
+		padding: 20px;
+	}
+
+	.index article{
+		width: 1500px;
+		margin: 0 auto;
+		/*background: teal;*/
+	}
+
+	.index div{
+		/*background: #000000;*/
+		width: 1500px;
+		height: 1700px;
+	}
+
+	.index img{
+		float: center;
+		width:350px;
+		height:450px;
 	}
 
 	.index body{
@@ -131,12 +159,12 @@
 	}
 
 	.col1{
-		width:300px;
+		width: 450px;
 		margin: 20px;
 	}
 
 	.col2{
-		width:300px;
+		width: 450px;
 		margin: 20px;
 	}
 
@@ -150,11 +178,15 @@
 	}
 
 	.index h2{
-
+		color: ;
 	}
 
 	.index h3{
-		color: white;
+		color: purple;
+	}
+
+	.index h4{
+		color: green;
 	}
 
 
