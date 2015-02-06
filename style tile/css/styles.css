@@ -8,7 +8,7 @@ section {
 
 article{
 	width: 1500px;
-	height: 950px;
+	height: 1150px;
 	margin: 0 auto;
 	background: #000000;
 }
@@ -21,6 +21,20 @@ img{
 
 section{
 	margin: auto 10px auto;
+}
+
+.headers, .links{
+	float: left;
+}
+
+.headers{
+	width: 450px;
+	margin: 20px;
+}
+
+.links{
+	width: 450px;
+	margin: 20px;
 }
 
 
