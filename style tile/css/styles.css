@@ -8,9 +8,14 @@ section {
 
 article{
 	width: 1500px;
-	height: 1150px;
-	margin: 0 auto;
+	height: 900px;
+	margin: 30px auto 10px auto;
 	background: #000000;
+	border-radius: 15px;
+}
+
+body{
+	background-image: url("img/robots.jpeg");
 }
 
 img{
@@ -24,14 +29,15 @@ img{
 }
 
 .headers{
-	width: 450px;
+	width: 200px;
 	margin: 20px;
 }
 
 .links{
-	width: 450px;
+	width: 200px;
 	margin: 20px;
 }
+
 
 .color-1,
 .color-2,
@@ -72,10 +78,14 @@ img{
 		color: purple;
 		text-align: right;
 		background: gray;
+		text-indent: 20px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
 		font-family: 'Raleway', sans-serif; font-weight 700; 
 		border-top: 5px solid teal;
 		border-bottom: 5px solid teal;
 	}
+
 
 	h3{
 		color: teal;
@@ -99,19 +109,19 @@ img{
 
 /*links*/
 
-	nav a:link{
+	a:link{
 		color: teal;
 		font-family: 'Raleway', sans-serif; font-weight 300;
 		font-size: 20px;
 	}
 
-	nav a:visited{
+	a:visited{
 		color: gray;
 		font-family: 'Raleway', sans-serif; font-weight 300;
 		font-size: 20px;
 	}
 
-	nav a:hover, hover{
+	a:hover, hover{
 		color: purple;
 		font-family: 'Raleway', sans-serif; font-weight 300;
 		font-size: 20px;
@@ -130,8 +140,8 @@ img{
 		background: gray;
 	}
 
-	pattern-1, imagery-3 div{
-		background: url("img/evangelion-colorful-robots-images-free_3758453");
+	.pattern-1, imagery-1 div{
+		background-image: url("img/robots.jpeg");
 	}
 
 /* Set Your Own Margin & Padding */

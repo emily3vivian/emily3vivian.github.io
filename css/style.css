@@ -21,8 +21,8 @@
 /*nav*/
 	nav{
 		float: right;
-		/*background: red;*/
 	}
+	
 	nav a:link{
 		color: teal;
 		font-family: 'Raleway', sans-serif; font-weight 300;
