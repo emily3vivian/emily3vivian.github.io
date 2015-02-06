@@ -21,6 +21,7 @@
 /*nav*/
 	nav{
 		float: right;
+		margin: 0 10px;
 	}
 	
 	nav a:link{
@@ -60,6 +61,7 @@
 		float: right;
 		width:350px;
 		height:450px;
+		margin: 10px;
 		border-left: 5px double teal;
 		border-right: 5px double teal;
 		border-top: 5px double purple;
