@@ -45,12 +45,12 @@ article{
 		/*background-image: url("img/evangelion-colorful-robots-images-free_3758453.jpg");*/
 	}
 
-	h1{
+	 h1{
 		color: purple;
 		font-family: 'Raleway', sans-serif; font-weight 700; 
 	}
 
-	.header div{
+	.header {
 		color: purple;
 		text-align: right;
 		background: gray;
