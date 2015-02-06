@@ -8,9 +8,19 @@ section {
 
 article{
 	width: 1500px;
-	height: 1700px;
+	height: 950px;
 	margin: 0 auto;
 	background: #000000;
+}
+
+img{
+	float: right;
+	height: 350px;
+	width: 350px;
+}
+
+section{
+	margin: auto 10px auto;
 }
 
 
@@ -42,7 +52,6 @@ article{
 		color: white;
 		line-height: 22px;
 		font-family: 'Raleway', sans-serif; font-weight 300;
-		/*background-image: url("img/evangelion-colorful-robots-images-free_3758453.jpg");*/
 	}
 
 	 h1{
@@ -80,10 +89,7 @@ article{
 	}
 
 /*links*/
-	nav{
-		float: right;
-		/*background: red;*/
-	}
+
 	nav a:link{
 		color: teal;
 		font-family: 'Raleway', sans-serif; font-weight 300;
