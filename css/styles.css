@@ -8,7 +8,7 @@ section {
 
 article{
 	width: 1500px;
-	height: 900px;
+	height: 950px;
 	margin: 30px auto 10px auto;
 	background: #000000;
 	border-radius: 15px;
@@ -29,13 +29,17 @@ img{
 }
 
 .headers{
-	width: 200px;
+	width: 500px;
 	margin: 20px;
 }
 
 .links{
-	width: 200px;
+	width: 500px;
 	margin: 20px;
+}
+
+li{
+	display: inline;
 }
 
 
@@ -67,6 +71,7 @@ img{
 		color: white;
 		line-height: 22px;
 		font-family: 'Raleway', sans-serif; font-weight 300;
+		background-image: url("img/evangelion-colorful-robots-images-free_3758453.jpeg");
 	}
 
 	 h1{
@@ -125,6 +130,42 @@ img{
 		color: purple;
 		font-family: 'Raleway', sans-serif; font-weight 300;
 		font-size: 20px;
+	}
+
+/*nav*/
+
+	nav{
+		float: right;
+	}
+	
+	nav a:link{
+		color: teal;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
+	}
+
+	nav a:visited{
+		color: gray;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
+	}
+
+	nav a:hover, hover{
+		color: purple;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
+	}
+
+	nav ul{
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+        display: inline;
+    	width: 60px;
+	}
+
+	nav li{
+		display: inline;
 	}
 
 /*boxes*/
