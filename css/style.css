@@ -129,13 +129,13 @@
 		/*background: teal;*/
 	}
 
-.index section{
-	width: 500px;
-	float: left;
-	margin: auto 10px auto;
-	/*background: teal;*/
-	padding: 20px;
-}
+	.index section{
+		width: 500px;
+		float: left;
+		margin: auto 10px auto;
+		/*background: teal;*/
+		padding: 20px;
+	}
 
 	.index article{
 		width: 1500px;
