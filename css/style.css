@@ -16,13 +16,37 @@
 		font-family: 'Raleway', sans-serif; font-weight 300;
 	}
 
+	ul{
+		list-style-type: none;
+	}
+
+	a{
+		text-decoration: none;
+		
+	}
+
+	a:link{
+		color: teal;
+		text-decoration: none;
+	}
+
+	/*a:hover{
+		color: purple;
+	}*/
+
+	a:visited{
+		color:gray;
+		text-decoration: none;
+	}
+
 
 /*nav*/
 	nav{
-		color: black;
+		background: lightgrey;
+		opacity: .95;
 		float: left;
-		margin: 0 10px;
-
+		margin:  -20px 0 0 2px;
+		padding: 10px 10px 10px 10px;
 	}
 	
 	nav a:link{
@@ -32,19 +56,20 @@
 	}
 
 	nav a:visited{
-		color: gray;
+		color:gray;
 		font-family: 'Raleway', sans-serif; font-weight 300;
 		font-size: 20px;
+		text-decoration: none;
 	}
 
 	nav a:hover, hover{
 		color: purple;
 		font-family: 'Raleway', sans-serif; font-weight 300;
 		font-size: 20px;
+		text-decoration: none;
 	}
 
 	nav ul{
-		list-style-type: none;
 	    margin: 0;
 	    padding: 0;
         display: inline;
@@ -114,6 +139,10 @@
 	.resume-content{
 		width:35%;
 		float: left;
+	}
+
+	.footer{
+		background: green;
 	}
 
 
