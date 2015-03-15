@@ -1,0 +1,158 @@
+/*nav*/
+	nav{
+		background: lightgrey;
+		opacity: .95;
+		float: left;
+		text-decoration: none;
+		margin:  2px 0 0 2px;
+		padding: 10px 10px 10px 10px;
+	}
+	
+	nav a:link{
+		color: teal;
+		text-decoration: none;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
+	}
+
+	nav a:visited{
+		color:gray;
+		text-decoration: none;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	nav a:hover, hover{
+		color: purple;
+		text-decoration: none;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	nav ul{
+	    margin: 0;
+	    padding: 0;
+        display: inline;
+    	width: 60px;
+	}
+
+	nav li{
+		display: inline;
+	}
+
+body {
+  background: url("http://subtlepatterns.com/patterns/linen.png");
+}
+
+/* Layout of gallery items*/
+figure { 
+  background: maroon;
+  border-bottom: 20px solid maroon;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px #696969;
+  padding: 10px;
+  
+  /* layout */
+  float: left;
+  height: 150px;
+  margin: 40px;
+  width: 150px;
+  
+  /* set relative parent for each time*/
+  position: relative;
+}
+
+/* Header */
+figure h5 {
+  background: rgba(255,255,255,.75);
+  color: purple;
+  padding: 5px;
+  text-align: right;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+  /* absolute position headings */
+  position: absolute;
+  top: 0;
+  right: -40px;
+  /* 
+     * absolutely positioned elements only as wide as content
+     * optionally set widths
+  */
+  width: 100%;
+ /* bring to front */ 
+  z-index: 2;
+}
+
+/* Caption Container */
+.thumbnail {
+
+  /* parent for caption */ 
+  position: relative;
+  /* 
+    * set to any dimensions
+    * matched to size of image in this case
+  */   
+  height: 150px;
+  width: 150px;
+  /* hide overflowing content */ 
+  overflow: hidden;
+}
+
+/* Caption - First Frame */
+.thumbnail p {
+  background: rgba(255,255,255,.75);
+  font-size: .75em;
+  font-style: italic;
+  padding: .25em;
+  text-align: center;
+  
+  position: absolute;
+  margin: 0;
+  /* value is height of image */   
+  bottom: 0;
+  opacity: 0;
+}
+
+/* Caption - Last Frame */
+.thumbnail:hover p {
+   -webkit-animation: slideInUp 1s;
+}
+
+  @-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* 
+  Keyframe Animation
+
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+*/
