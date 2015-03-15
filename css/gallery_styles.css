@@ -1,3 +1,33 @@
+.container{
+	background: black;
+	border-radius: 15px;
+	margin: 0 auto 10px;
+	width: 90%;
+}
+
+h1{
+	color: purple;
+	text-align: center;
+	background: gray;
+	font-family: 'Raleway', sans-serif; font-weight 700; 
+	border-top: 5px solid teal;
+	border-bottom: 5px solid teal;
+	border-radius: 15px;
+}
+
+h3{
+	color: teal;
+	margin: 10px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif; font-weight 400;
+}
+
+.clearfix {
+  clear: both; 
+  float: none;
+}
+
+
 /*nav*/
 	nav{
 		background: lightgrey;
@@ -42,23 +72,19 @@
 		display: inline;
 	}
 
-body {
-  background: url("http://subtlepatterns.com/patterns/linen.png");
-}
-
 /* Layout of gallery items*/
 figure { 
-  background: maroon;
-  border-bottom: 20px solid maroon;
+  background: gray;
+  border-bottom: 20px solid gray;
   border-radius: 4px;
   box-shadow: 2px 2px 15px #696969;
   padding: 10px;
   
   /* layout */
   float: left;
-  height: 150px;
-  margin: 40px;
-  width: 150px;
+  height: 400px;
+  margin: 30px 70px 50px 70px;
+  width: 400px;
   
   /* set relative parent for each time*/
   position: relative;
@@ -72,6 +98,7 @@ figure h5 {
   text-align: right;
   letter-spacing: 3px;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif; font-weight 300;
   
   /* absolute position headings */
   position: absolute;
@@ -95,8 +122,8 @@ figure h5 {
     * set to any dimensions
     * matched to size of image in this case
   */   
-  height: 150px;
-  width: 150px;
+  height: 400px;
+  width: 400px;
   /* hide overflowing content */ 
   overflow: hidden;
 }
@@ -104,8 +131,7 @@ figure h5 {
 /* Caption - First Frame */
 .thumbnail p {
   background: rgba(255,255,255,.75);
-  font-size: .75em;
-  font-style: italic;
+  font-family: 'Raleway', sans-serif; font-weight 300;
   padding: .25em;
   text-align: center;
   

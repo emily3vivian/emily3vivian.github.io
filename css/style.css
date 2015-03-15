@@ -45,7 +45,7 @@
 		background: lightgrey;
 		opacity: .95;
 		float: left;
-		margin:  -20px 0 0 2px;
+		margin:  2px 0 0 2px;
 		padding: 10px 10px 10px 10px;
 	}
 	
@@ -94,10 +94,6 @@
 		border-bottom: 5px double purple;
 	}
 
-	.bio body{
-		background-image: url("img/evangelion-colorful-robots-images-free_3758453.jpg");
-	}
-
 	.bio h1{
 		color: purple;
 		text-align: right;
@@ -133,7 +129,6 @@
 	.bio-content{
 		width:35%;
 		float: left;
-
 	}
 
 	.resume-content{
@@ -142,46 +137,6 @@
 	}
 
 /*index*/
-
-	.index article{
-
-	}
-
-	.index section{
-
-	}
-
-	.index div{
-
-	}
-
-	.index img{
-		float: center;
-		width:350px;
-		height:450px;
-	}
-
-	.index body{
-		background-color: black;
-	}
-
-	.col1, .col2{
-		float: left;
-	}
-
-	.col1{
-		width: 450px;
-		margin: 20px;
-	}
-
-	.col2{
-		width: 450px;
-		margin: 20px;
-	}
-
-	footer{
-		float:left;
-	}
 
 	.index h1{
 		color: white;
