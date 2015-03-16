@@ -66,16 +66,21 @@ body{
 		text-decoration: none;
 	}
 
-	nav ul{
-	    margin: 0;
-	    padding: 0;
-        display: inline;
-    	width: 60px;
+	nav ul{  
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 60px;
 	}
 
 	nav li{
 		display: inline;
 	}
+
+  img {
+    max-width: 100%;
+    width: auto;
+  }
 
 /* Layout of gallery items*/
 figure { 
@@ -211,6 +216,11 @@ figure h5 {
   }
   */
 
+  article section {
+    float: none;
+    width: 100%;
+    width: 100%;
+  }
 } 
 
 /*mobile*/

@@ -96,6 +96,17 @@ nav li{
 	display: inline;
 }
 
+#lilith{
+	float: right;
+	width:450px;
+	height:450px;
+	margin: 10px;
+	border-left: 5px double teal;
+	border-right: 5px double teal;
+	border-top: 5px double purple;
+	border-bottom: 5px double purple;
+}
+
 img{
 	float: right;
 	height: 400px;
@@ -175,3 +186,42 @@ li{
 
 /* Clearfix - Oo Not Remove */
 	.clearfix {clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0}
+
+	/*media queries*/
+@media (max-width: 1024px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: red;
+  }
+  */
+} 
+
+/*tablet*/
+@media (max-width: 768px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: blue;
+  }
+  */
+
+  article section {
+		float: none;
+		width: 100%;
+		width: 100%;
+	}
+} 
+
+/*mobile*/
+@media (max-width: 480px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: green;
+  }
+  */
+} 
