@@ -4,14 +4,96 @@
 Feel free to change */
 section {
 	margin: 20px 0;
+	color: white;
+	font-family: 'Raleway', sans-serif; font-weight 400;
 }
 
-article{
-	width: 1500px;
-	height: 990px;
-	margin: 0 auto 20px auto;
-	background: #000000;
+.container{
+	width: 90%;
+	margin: 80px auto 10px;
+	background: black;
 	border-radius: 15px;
+}
+
+body{
+	color: white;
+	font-family: 'Raleway', sans-serif; font-weight 300;
+}
+
+ h1{
+	color: purple;
+	font-family: 'Raleway', sans-serif; font-weight 700; 
+}
+
+.header {
+	color: purple;
+	text-align: right;
+	background: gray;
+	text-indent: 20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-family: 'Raleway', sans-serif; font-weight 700; 
+	border-top: 5px solid teal;
+	border-bottom: 5px solid teal;
+}
+
+h3{
+	color: teal;
+	font-family: 'Raleway', sans-serif; font-weight 400;
+}
+
+h4{
+	color: gray;
+	font-family: 'Raleway', sans-serif; font-weight 400;
+}
+
+p{
+	color: white;
+	font-family: 'Raleway', sans-serif; font-weight 300;
+}
+
+/*nav*/
+
+nav{
+	background: lightgrey;
+	opacity: .95;
+	float: left;
+	margin:  -79px 0 0 2px;
+	padding: 10px 10px 10px 10px;
+}
+
+nav a:link{
+	color: teal;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif; font-weight 300;
+	font-size: 20px;
+}
+
+nav a:visited{
+	color:gray;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif; font-weight 300;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover, hover{
+	color: purple;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif; font-weight 300;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+	width: 60px;
+}
+
+nav li{
+	display: inline;
 }
 
 img{
@@ -42,6 +124,7 @@ li{
 	display: inline;
 }
 
+
 .pattern-1 img{
 	height: 100px;
 	width: 100px;
@@ -70,92 +153,6 @@ li{
 		font-family: 'Raleway', sans-serif;
 		src: url(https://www.google.com/fonts#UsePlace:use);
 		font-family: 'Raleway', sans-serif; font-weight 400;
-	}
-
-	body{
-		color: white;
-		font-family: 'Raleway', sans-serif; font-weight 300;
-	}
-
-	 h1{
-		color: purple;
-		font-family: 'Raleway', sans-serif; font-weight 700; 
-	}
-
-	.header {
-		color: purple;
-		text-align: right;
-		background: gray;
-		text-indent: 20px;
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		font-family: 'Raleway', sans-serif; font-weight 700; 
-		border-top: 5px solid teal;
-		border-bottom: 5px solid teal;
-	}
-
-	h3{
-		color: teal;
-		font-family: 'Raleway', sans-serif; font-weight 400;
-	}
-
-	h4{
-		color: gray;
-		font-family: 'Raleway', sans-serif; font-weight 400;
-	}
-
-	p{
-		color: white;
-		font-family: 'Raleway', sans-serif; font-weight 300;
-	}
-
-	section{
-		color: white;
-		font-family: 'Raleway', sans-serif; font-weight 400;
-	}
-
-/*nav*/
-
-	nav{
-		background: lightgrey;
-		opacity: .95;
-		float: left;
-		margin:  -20px 0 0 2px;
-		padding: 10px 10px 10px 10px;
-	}
-	
-	nav a:link{
-		color: teal;
-		text-decoration: none;
-		font-family: 'Raleway', sans-serif; font-weight 300;
-		font-size: 20px;
-	}
-
-	nav a:visited{
-		color:gray;
-		text-decoration: none;
-		font-family: 'Raleway', sans-serif; font-weight 300;
-		font-size: 20px;
-		text-decoration: none;
-	}
-
-	nav a:hover, hover{
-		color: purple;
-		text-decoration: none;
-		font-family: 'Raleway', sans-serif; font-weight 300;
-		font-size: 20px;
-		text-decoration: none;
-	}
-
-	nav ul{
-	    margin: 0;
-	    padding: 0;
-        display: inline;
-    	width: 60px;
-	}
-
-	nav li{
-		display: inline;
 	}
 
 /*boxes*/
