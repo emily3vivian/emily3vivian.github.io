@@ -168,9 +168,9 @@
 	}
 
 	.container{
+		position: relative;
 		background: black;
 		border-radius: 15px;
-		margin: 0 auto 10px;
 		width: 90%;
 	}
 
