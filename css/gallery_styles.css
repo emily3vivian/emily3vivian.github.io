@@ -188,3 +188,38 @@ figure h5 {
   }
 }
 */
+
+
+/*media queries*/
+@media (max-width: 1024px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: red;
+  }
+  */
+} 
+
+/*tablet*/
+@media (max-width: 768px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: blue;
+  }
+  */
+
+} 
+
+/*mobile*/
+@media (max-width: 480px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: green;
+  }
+  */
+} 

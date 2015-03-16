@@ -140,28 +140,197 @@
 	}
 
 /*index*/
-
 	.index h1{
-		color: white;
+		color: purple;
+		text-align: center;
+		background: gray;
 		font-family: 'Raleway', sans-serif; font-weight 700; 
-	}
-
-	.index h2{
-		color: ;
+		border-top: 5px solid teal;
+		border-bottom: 5px solid teal;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
 	}
 
 	.index h3{
-		color: purple;
+		color: teal;
+		text-align: center;
+		font-family: 'Raleway', sans-serif; font-weight 400;
 	}
 
 	.index h4{
-		color: green;
+		color: gray;
+		font-family: 'Raleway', sans-serif; font-weight 400;
 	}
+
+	.index ul, ol{
+		color: white;
+		font-family: 'Raleway', sans-serif; font-weight 300;
+	}
+
+	.container{
+		background: black;
+		border-radius: 15px;
+		margin: 0 auto 10px;
+		width: 90%;
+	}
+
+	/* Layout of gallery items*/
+figure { 
+  background: gray;
+  border-bottom: 20px solid gray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px #696969;
+  padding: 10px;
+  
+  /* layout */
+  float: left;
+  height: 200px;
+  margin: 30px 100px 50px 100px;
+  width: 200px;
+  
+  /* set relative parent for each time*/
+  position: relative;
+}
+
+/* Header */
+figure h5 {
+  background: rgba(255,255,255,.75);
+  color: purple;
+  padding: 5px;
+  text-align: right;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif; font-weight 300;
+  
+  /* absolute position headings */
+  position: absolute;
+  top: 0;
+  right: -40px;
+  /* 
+     * absolutely positioned elements only as wide as content
+     * optionally set widths
+  */
+  width: 100%;
+ /* bring to front */ 
+  z-index: 2;
+}
+
+/* Caption Container */
+.thumbnail {
+
+  /* parent for caption */ 
+  position: relative;
+  /* 
+    * set to any dimensions
+    * matched to size of image in this case
+  */   
+  height: 200px;
+  width: 200px;
+  /* hide overflowing content */ 
+  overflow: hidden;
+}
+
+/* Caption - First Frame */
+.thumbnail p {
+  background: rgba(255,255,255,.75);
+  color: black;
+  font-family: 'Raleway', sans-serif; font-weight 300;
+  padding: .25em;
+  text-align: center;
+  
+  position: absolute;
+  margin: 0;
+  /* value is height of image */   
+  bottom: 0;
+  opacity: 0;
+}
+
+/* Caption - Last Frame */
+.thumbnail:hover p {
+   -webkit-animation: slideInUp 1s forwards;
+}
+
+  @-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* 
+  Keyframe Animation
+
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+*/
+
 
 
 .clearfix {
   clear: both; 
   float: none;
 }
+
+
+/*media queries*/
+@media (max-width: 1024px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: red;
+  }
+  */
+} 
+
+/*tablet*/
+@media (max-width: 768px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: blue;
+  }
+  */
+
+  article section {
+		float: none;
+		width: 100%;
+		width: 100%;
+	}
+} 
+
+/*mobile*/
+@media (max-width: 480px){
+  /*nested rules for this size*/
+
+  /*
+  body{
+    background: green;
+  }
+  */
+} 
 
 </style>
