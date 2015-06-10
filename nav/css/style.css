@@ -1,0 +1,129 @@
+@font-face{
+    font-family: 'Raleway', sans-serif;
+    src: url(https://www.google.com/fonts#UsePlace:use);
+}
+
+.menuWrapper{
+    font-family:Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+
+    letter-spacing: normal;
+    line-height: 1.45em;
+    position:relative;
+    margin:20px auto;
+    height:542px;
+    width:797px;
+    background-position:0 0;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+ul.menu{
+    list-style:none;
+    width:797px;
+}
+ul.menu > li{
+    float:left;
+    width:265px;
+    height:542px;
+    border-right:1px solid #777;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+ul.menu > li.last{
+    border:none;
+}
+.bg1{
+    background-image: url(../../home/bioandresume.png);
+}
+.bg2{
+    background-image: url(../../home/gallery.png);
+}
+.bg3{
+    background-image: url(../../home/styletile.png);
+}
+
+ul.menu > li > a{
+    float:left;
+    width:265px;
+    height:50px;
+    margin-top:450px;
+    text-align:center;
+    line-height:50px;
+    color:purple;
+    background-color:white;
+    letter-spacing:1px;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+ul.menu > li ul li{
+    display:none;
+}
+
+ul.menu > li ul li a{
+    color:#fff;
+    text-decoration:none;
+    line-height:30px;
+    margin-left:20px;
+    font-size:11px;
+}
+ul.menu > li ul.sub1 li{
+    display:block;
+}
+ul.menu > li ul li a:hover{
+    border-bottom:1px dotted #fff;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding-top:30px;
+    color: white;
+    font-family:Raleway;
+    padding-top:30px;
+    background:black;
+}
+a.back{
+
+    position:absolute;
+    width:150px;
+    height:27px;
+    outline:none;
+    top:2px;
+    right:0px;
+}
+.reference{
+    margin:20px auto;
+    width:600px;
+    padding:20px;
+}
+.reference p a{
+    text-transform:uppercase;
+    text-shadow:1px 1px 1px #fff;
+    color:#666;
+    text-decoration:none;
+    font-size:10px;
+
+}
+.reference p a:hover{
+    color:#333;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+    background: gray;
+    font-family: 'Raleway', sans-serif; font-weight 700; 
+    border-top: 5px solid teal;
+    border-bottom: 5px solid teal;
+}
+
+h3{
+    color: teal;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; font-weight 400;
+}
