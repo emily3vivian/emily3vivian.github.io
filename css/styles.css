@@ -145,6 +145,7 @@ li{
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
@@ -177,6 +178,10 @@ li{
 
 	.color-3, imagery-3 div{
 		background: gray;
+	}
+
+	.color-4, imagery-3 div{
+		background: black;
 	}
 
 /* Set Your Own Margin & Padding */
